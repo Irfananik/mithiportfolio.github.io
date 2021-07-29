@@ -1,1 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- bootstrap-4 link -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"crossorigin="anonymous">
+    <!-- bootstrap css link -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- my custom css style link -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon type=img.png" href="img/title-icon.jpg">
+    <title>mithis-porfolio</title>
+    <!-- google-font-link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@500&display=swap" rel="stylesheet">
+    <!-- font awesome link -->
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="container-fluid">
+        <header id="header" class="">
+          <!-- navbar -->
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark p-3">
+                <div class="container-fluid">
+                  <a class="navbar-brand fs-3" href="#">Welcome to my portfolio!</a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+                    <div class="navbar-nav fs-5">
+                      <a class="nav-link active" aria-current="page" href="#">Home</a>
+                      <a class="nav-link" href="#about">About</a>
+                      <a class="nav-link" href="#work">Work</a>
+                      <a class="nav-link" href="#contact">Contact</a>
+                    </div>
+                  </div>
+                </div>
+              </nav>
+              <!-- navbar end-->
 
+              <!-- banner -->
+              <section>
+                <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+                  <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" class="" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" class="" aria-label="Slide 3"></button>
+                  </div>
+                  <div class="carousel-inner">
+                    <div class="carousel-item active">
+                      <img src="img/banner-1.jpg" class="d-block w-100" alt="...">
+                      <div class="carousel-caption d-none d-md-block">
+                        <h1>This is Mithi Zaman</h1>
+                        <p>Programming is my passion.</p>
+                      </div>
+                    </div>
+                    <div class="carousel-item">
+                      <img src="img/banner-2.jpg" class="d-block w-100" alt="...">
+                      <div class="carousel-caption d-none d-md-block">
+                        <h1>This is Mithi Zaman</h1>
+                        <p>Programming is my love.</p>
+                      </div>
+                    </div>
+                    <div class="carousel-item">
+                      <img src="img/banner-3.jpg" class="d-block w-100" alt="...">
+                      <div class="carousel-caption d-none d-md-block">
+                        <h1>This is Mithi Zaman</h1>
+                        <p>Programming is my Dream.</p>
+                      </div>
+                    </div>
+                  </div>
+                  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                  </button>
+                  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                  </button>
+                </div>
+              </section>
+              <!-- banner end -->
+        </header>
+
+        <main>
+          <!-- about section -->
+          <div id="about">
+            <div class="jumbotron pt-2">
+              <div class="row m-5">
+                  <div class="col-12 col-lg-4 text-center">
+                      <img class="img-fluid rounded-circle w-75" src="img/about-pic.jpg" alt="about-image">
+                  </div>
+                  <div class="col-12 col-lg-8 text-center mt-3">
+                      <h1 class="fw-bolder text-uppercase">About me</h1>
+                      <p class="">My name is Mithi Zaman.My hometown is Faridpur but i staying in Dhaka now for study purpose.Now i studying department of computer science at American International University(AIUB).I love programming a lot.In the future i want to be a successful machine learning engineer.</p>
+                      
+                      
+
+                      <a href="#lmore" data-bs-toggle="collapse" class="btn btn-outline-dark">Learn More</a>
+
+                      <div id="lmore" class="collapse mt-4">
+                        <h4 class="text-uppercase">My Skills</h4>
+                        <p><b>Programming Language:</b> C, C++, Java</p>
+                        <p><b>Basic Computer:</b>Ms Word, Ms Power point, Ms Excel</p>
+                        <div class="btn-group">
+                          <a href="#" class="btn btn-secondary">Download My CV</a>
+                          <a href="#" class="btn btn-secondary">GitHub Link</a>
+                        </div>
+                      </div>
+                  </div>
+              </div>
+            </div>
+          </div>
+          <!-- about section end -->
+
+          <!-- work -->
+          <div id="work">
+            <div class="work-section bg-secondary">
+              <h1 class="text-center text-uppercase">My Work</h1>
+              <div class="row text-center justify-content-center">
+                <div class="col-12 col-lg-3 d-block d-lg-flex m-4 work-card-style work-card-size">
+                  <div class="card">
+                    <img src="img/card_img1.jpg" class="card-img-top" alt="work-image1">
+                    <div class="card-body">
+                      <h5 class="card-title">Physics Contents</h5>
+                      <p class="card-text">Here is my some physics contents.If you are interested for more information about this contents please hit the button below.</p>
+                      <a href="#" class="btn btn-outline-dark">Go for details</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-12 col-lg-3 d-block d-lg-flex m-4 work-card-style work-card-size">
+                  <div class="card">
+                    <img src="img/card_img2.jpg" class="card-img-top" alt="work-image2">
+                    <div class="card-body">
+                      <h5 class="card-title">Programming Contents</h5>
+                      <p class="card-text">Here is my some programming contents.If you are interested for more information about this contents please hit the button below.</p>
+                      <a href="#" class="btn btn-outline-dark">Go for details</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-12 col-lg-3 d-block d-lg-flex m-4 work-card-style work-card-size">
+                  <div class="card">
+                    <img src="img/card_img3.jpg" class="card-img-top" alt="work-image3">
+                    <div class="card-body">
+                      <h5 class="card-title">Machine learning contents</h5>
+                      <p class="card-text">Here is my some Machine learning contents.If you are interested for more information about this contents please hit the button below.</p>
+                      <a href="#" class="btn btn-outline-dark">Go for details</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-12 col-lg-3 d-block d-lg-flex m-4 work-card-style work-card-size">
+                  <div class="card">
+                    <img src="img/card_img4.jpg" class="card-img-top" alt="work-image4">
+                    <div class="card-body">
+                      <h5 class="card-title">Mathematical Contents</h5>
+                      <p class="card-text">Here is my some Mathematical contents.If you are interested for more information about this contents please hit the button below.</p>
+                      <a href="#" class="btn btn-outline-dark">Go for details</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div> 
+          </div>
+          <!-- work end-->
+
+          <!-- contact -->
+          <section id="contact" class="bg-light">
+            <div class="contact-title mt-5">
+              <h1 class="text-center text-uppercase">Contact Me</h1>
+            </div>
+            <div class="row p-4">
+              <div class="col-lg-6">
+                <form action="mailto:anik.cse10@gmail.com" method="post" enctype="text-plain" class="was-validate">
+                  <div class="form-group">
+                    <label for="fullname">Full Name</label>
+                    <input type="text" class="form-control" name="fullname" required>
+                  </div>
+
+                  <div class="form-group"> <br>
+                    <label for="email">Email</label>
+                    <input type="email" class="form-control" name="email" required>
+                  </div>
+
+                  <div class="form-group"> <br>
+                    <label for="message">Message</label>
+                    <textarea style="resize:none;" name="" id="" class="form-control" cols="30" rows="10"  required></textarea> 
+                  </div>
+
+                  <div class="form-group text-center p-3">
+                    <input type="submit" class="btn btn-secondary m-3" value="Submit">
+                    <input type="reset" class="btn btn-secondary " value="Reset">
+                  </div>
+                </form>
+              </div>
+              <div class="col-lg-6 mt-5">
+                <div class="contact-title text-center text-muted">
+                  <h3 class="">Get in touch with me-</h3>
+                  <p class="">E-block,Jakir Hossain road,Mohammadpur,Dhaka</p>
+                  <p class="">Email:mithizaman2020@gmail.com</p>
+                  <p class="">Contact Number:01828546363</p>
+                </div>
+              </div>
+            </div>
+          </section>
+          <!-- contact end -->
+        </main>
+
+        <footer>
+          <div class="bg-dark">
+            <div class="row p-4">
+              <div class="col-lg-4 mt-4">
+                <p class="small text-center footer-p">&copy; Copyright all right Mithi Zaman</p>
+              </div>
+              <div class="col-lg-4 text-center mt-2">
+                <a class="footer-a btn" href="#header" role="button"><i class="footer-i fa fa-arrow-up" aria-hidden="true"></i></a>
+              </div>
+  
+              <div class="col-lg-4 text-center mt-2">
+                <a class="footer-s-a" href=""><i class="fab fa-facebook p-2"></i></a>
+                <a class="footer-s-a" href=""><i class="fab fa-instagram p-2"></i></a>
+                <a class="footer-s-a" href=""><i class="fab fa-twitter p-2"></i></a>
+                <a class="footer-s-a" href=""><i class="fab fa-youtube p-2"></i></a>
+              </div>
+            </div>
+          </div>
+        </footer>
+    </div>
+    <!-- js bootstrap-link -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>
